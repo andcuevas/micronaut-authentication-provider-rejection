@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: micronaut.custom.authentication
+---
+testFramework: junit
+sourceLanguage: java

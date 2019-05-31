@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: micronaut-custom-authentication
+  security:
+    enabled: true
+    endpoints:
+      login:
+        enabled: true
+    token:
+      jwt:
+        enabled: true
+        signatures:
+          secret:
+            generator:
+              secret: pleaseChangeThisSecretForANewOne
